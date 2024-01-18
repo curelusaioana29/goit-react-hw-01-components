@@ -1,0 +1,86 @@
+.profile {
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 300px;
+    margin: 20px auto;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .description {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .description img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .name {
+    font-weight: 600;
+    font-size: 24px;
+    color: #070707;
+    margin: 25px 0 5px;
+  }
+  
+  .tag,
+  .location {
+    margin: 5px 0;
+    color: #a09d9d;
+  }
+  
+  .stats {
+    background-color: #f9f9f9;
+    list-style: none;
+    padding: 0;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    display: flex;
+  }
+  
+  .stats li {
+    text-align: center;
+    border: 1px solid rgb(231, 228, 228);
+    border-bottom: none;
+    padding: 20px 30px;
+    width: auto;
+    flex-grow: 1;
+  }
+  
+  .label {
+    display: block;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .quantity {
+    font-weight: bold;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 600px) {
+    .profile {
+      max-width: 100%; /* Adjusted max-width for smaller screens */
+    }
+  
+    .description {
+      padding: 20px;
+    }
+  
+    .name {
+      font-size: 20px;
+    }
+  
+    .stats li {
+      padding: 10px;
+    }
+  }
+  
